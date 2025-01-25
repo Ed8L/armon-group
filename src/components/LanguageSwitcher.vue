@@ -31,8 +31,8 @@
         class="absolute normal-case z-30 font-normal xs:left-0 lg:right-0 bg-white shadow overflow-hidden rounded border mt-2 py-1 lg:z-20 lg:w-32"
       >
         <li>
-          <a
-            :href="'/en/' + $router.currentRoute.path.substring(4)"
+          <router-link
+            :to="{ name: 'lang', params: { lang: 'en' } }"
             class="flex items-center px-3 py-3 md:px-2 md:py-2 lg:px-3 lg:py-3 hover:bg-gray-200"
             @keydown.up.exact.prevent=""
             @keydown.tab.exact="focusNext(false)"
@@ -45,11 +45,11 @@
               class="w-8 h-8 md:w-5 md:h-5 lg:w-8 lg:h-8"
             />
             <span class="ml-2">English</span>
-          </a>
+          </router-link>
         </li>
         <li>
-          <a
-            :href="'/ru/' + $router.currentRoute.path.substring(4)"
+          <router-link
+            :to="{ name: 'lang', params: { lang: 'ru' } }"
             class="flex items-center px-3 py-3 md:px-2 md:py-2 lg:px-3 lg:py-3 hover:bg-gray-200"
             @keydown.shift.tab="focusPrevious(false)"
             @keydown.up.exact.prevent="focusPrevious(true)"
@@ -63,7 +63,7 @@
               class="w-8 h-8 md:w-5 md:h-5 lg:w-8 lg:h-8"
             />
             <span class="ml-2 text-sm">Русский</span>
-          </a>
+          </router-link>
         </li>
       </ul>
     </transition>

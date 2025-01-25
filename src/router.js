@@ -18,7 +18,8 @@ export default new Router({
       redirect: `/${i18n.locale}`
     },
     {
-      path: '/:lang',
+      path: "/:lang",
+      name: "lang",
       component: {
         render(c) {
           return c('router-view')
