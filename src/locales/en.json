@@ -1,0 +1,66 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "about": "About us",
+    "contact": "Contact us"
+  },
+  "home": {
+    "agriculture": "Agriculture",
+    "mining": "Mining",
+    "logistics": "Logistics",
+    "import_export": "Imports and Exports"
+  },
+  "about": {
+    "title": "About us",
+    "main-text": "Based in Kyrgyzstan in the heart of central Asia, Armon Group is a professionally run company with interests in agriculture food & beverage, mining, logistics, import & distribution and exports.",
+    "imports": {
+      "title": "Imports",
+      "imports": {
+        "one": "Auto parts & Lubricants",
+        "two": "Consumer electronics & household items",
+        "three": "Food & beverage",
+        "four": "Food commodities",
+        "five": "Footwear & fashion",
+        "six": "Health & beauty care items",
+        "seven": "Medicines, medical supplies & equipment",
+        "eight": "Supermarket items",
+        "nine": "Tobacco & smoking paraphernalia and supplies",
+        "ten": "Vitamins & supplements"
+      }
+    },
+    "exports": {
+      "title": "Exports",
+      "exports": {
+        "one": "Fresh fruits & vegetables",
+        "two": "Dry fruits & nuts",
+        "three": "Metals"
+      }
+    },
+    "benefits": {
+      "main-text": "We are looking to add to our import portfolio of products and will be happy start a dialog with interested parties.",
+      "sub-text": "Benefits to manufacturers & suppliers:",
+      "benefits": {
+        "one": "Prompt decision making",
+        "two": "Quarterly / annual Forecast for orders",
+        "three": "Prompt payment of invoices",
+        "four": "Quick customs clearance",
+        "five": "Professional delivery service to customers",
+        "six": "Cash & carry warehouse for retail traders",
+        "seven": "Payment terms to retail trade",
+        "eight": "Advertising and promotions",
+        "nine": "Access to wholesale markets and bazars",
+        "ten": "Labelling and value-added services if required"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact us",
+    "address": {
+      "title": "Address",
+      "address": "Razzakov Street 33/1 Office 2, Bishkek, Kyrgyzstan"
+    },
+    "call": "Call",
+    "mail": "Email"
+  }
+}
